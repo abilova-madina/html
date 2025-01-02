@@ -21,17 +21,27 @@ a:hover {
 #html .box {
   margin-bottom: 23px;
   border-radius: 15px;
-  border-color: red;
   width: 300px;
   height: 170px;
-  border: solid #2d0808;
+  border: solid #716f6f;
 }
-#html .box .textbox1 h1 {
+#html .box .textbox1 h4 {
   font-size: 20px;
   font-weight: 600;
 }
-#html .box .textbox1 h1, #html .box .textbox1 h4 {
-  magin-top: 20px;
+#html .box .textbox1 h4, #html .box .textbox1 p {
+  margin-top: 15px;
+}
+#html .box .textbox1 .icon {
+  margin-top: 13px;
+}
+#html .box .btn h1 {
+  padding-top: 5px;
+  border: solid;
+  border-radius: 8px;
+  width: 100px;
+  margin-top: 5px;
+  height: 38px;
 }
 #html .minibox {
   border-radius: 15px;
@@ -57,4 +67,11 @@ a:hover {
   border-radius: 8px;
   width: 100px;
   height: 38px;
+}
+#html .box2 {
+  margin-left: 75px;
+}
+#html .box2 h3 {
+  display: flex;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
